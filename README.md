@@ -85,5 +85,6 @@
 
    11 - alcohol: the percent alcohol content of the wine
 
-   Output variable (based on sensory data): 
+   Output variable (based on sensory data):
+   
    12 - quality (score between 0 and 10)
