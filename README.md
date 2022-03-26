@@ -1,5 +1,6 @@
 # Red-Wine-Quality-Analysis
 ### Predicting the Quality of Red Wine using Machine Learning Algorithms for Regression Analysis, Data Visualizations and Data Analysis.
+### Dataset link :- https://www.kaggle.com/code/scsaurabh/red-wine-quality-analysis-python/data
 
 1. Title: Wine Quality 
 
@@ -89,3 +90,21 @@
    Output variable (based on sensory data):
    
    12 - quality (score between 0 and 10)
+
+
+### Steps to follow:-
+1. Import Libraries
+2. Import Dataset
+3. Data Exploration
+4. Exploratory Data Analysis
+5. Data Cleaning & Preprocessing
+6. Model Building
+7. Result
+8. Testing
+9. Conclusion
+
+
+### Conclusion
+* We observed the key factors that determine and affects the quality of the red wine. Wine quality is ultimately a subjective measure. The ordered factor '`quality`' was not very helpful and to overcome this, so we created another variable called '`rating`'.
+* To make predictions of wine quality and any other if required, we trained following models 'LogisticRegression','DecisionTree', 'RandomForestClassifier', 'Support Vector Classifier', 'KNearestNeighbors', 'AdaBoostClassifier','GaussianNB'. The **Random Forest Classifier** performed better its accuracy is **87.75%** and we decided to stick with it.
+* The usage of this analysis will help to understand whether by modifying the variables, it is possible to increase the quality of the wine on the market. If you can control your variables, then you can predict the quality of your wine and obtain more profits.
